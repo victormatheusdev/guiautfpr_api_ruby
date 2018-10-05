@@ -1,0 +1,7 @@
+version: '3'
+services:
+  web:
+    build: .
+    command: ruby main.rb
+    volumes:
+      - .:/usr/app
